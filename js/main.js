@@ -14,7 +14,7 @@ var userObj = {
   firstName: 'Александр',
   lastName: 'Лодыгин',
   age: 23
-}
+};
 /*
  * #2
  *
@@ -27,8 +27,8 @@ var userObj = {
  * userObj.fullName() → 'Имя Фамилия'.
  */
 userObj.fullName = function() {
-  return this.firstName + ' ' + this.lastName
-}
+  return this.firstName + ' ' + this.lastName;
+};
 /*
  * #3
  *
@@ -96,19 +96,12 @@ console.log(evenFn(20)); // [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
 function weekFn(n) {
   switch (n) {
     case 1: return 'Понедельник';
-    break;
     case 2: return 'Вторник';
-    break;
     case 3: return 'Среда';
-    break;
     case 4: return 'Четверг';
-    break;
     case 5: return 'Пятница';
-    break;
     case 6: return 'Суббота';
-    break;
     case 7: return 'Воскресенье';
-    break;
     default: return null;
   }
 }
